@@ -70,24 +70,24 @@
 /* COLOR PALETTE & FONTS VARIABLES  */
 
 :root {
-    --header-bg-color: rgb(255, 255, 255);
-    --header-fg-color: rgb(1, 35, 70);
+    --header-bg-color: rgb(166, 210, 188);
+    --header-fg-color: rgb(43, 95, 59);
   
     --topNav-bg-color: rgb(255, 255, 255);
     --topNav-fg-color: rgb(1, 35, 70);
     --topNav-link-color-link: rgb(1, 35, 70);
     --topNav-link-color-visited: rgb(52, 61, 70);
     --topNav-link-color-hover: rgb(41, 1, 70);
-    --topNav-link-color-active: rgb(70, 1, 25);
+    --topNav-link-color-active: rgb(3, 148, 145);
   
   
-    --main-bg-color: rgb(255, 255, 255);
+    --main-bg-color: rgb(219, 251, 223);
     --main-fg-color: rgb(1, 35, 70);
     --sidebar-bg-color: rgb(255, 255, 255);
     --sidebar-fg-color: rgb(1, 35, 70);
     --footer-bg-color: rgb(255, 255, 255);
     --footer-fg-color: rgb(1, 35, 70);
-    --bottomNav-bg-color: rgb(255, 255, 255);
+    --bottomNav-bg-color: rgb(166, 210, 188);
     --bottompNav-fg-color: rgb(1, 35, 70);
   
     --border-color-light: #ff0000;
@@ -99,20 +99,41 @@
     --accent-color: rgb(63, 77, 159);
     --highlight-color: #f3c;
   
-    --titles-font: "helvetica neue", helvetica, arial, sans-serif;
-    --bodytext-font: "helvetica neue", helvetica, arial, sans-serif;
-
-
-   --footerNav-bg-color: rgb(255, 255, 255);
-   --footerNav-fg-color: rgb(1, 35, 70);
-   --footerNav-link-color-link: rgb(1, 35, 70);
-   --footerNav-link-color-visited: rgb(52, 61, 70);
-   --footerNav-link-color-hover: rgb(41, 1, 70);
-   --footerNav-link-color-active: rgb(70, 1, 25);
+    /* --titles-font: "helvetica neue", helvetica, arial, sans-serif; */
+    --titles-font: "Noto Sans", sans-serif;
+    /* --bodytext-font: "helvetica neue", helvetica, arial, sans-serif; */
+    --bodytext-font: "Mulish", sans-serif;  
   }
 
+  h1, h2, h3, h4, h5, h6, legend, label {
+  
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+      
+  }
+  
+  
+    body {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+  }
+    */
 
-   html, body {font-size: 100%;}
+
+  { 
+    --footerNav-bg-color: rgb(166, 210, 188);
+    --footerNav-fg-color: rgb(1, 35, 70);
+    --footerNav-link-color-link: rgb(1, 35, 70);
+    --footerNav-link-color-visited: rgb(52, 61, 70);
+    --footerNav-link-color-hover: rgb(41, 1, 70);
+    --footerNav-link-color-active: rgb(70, 1, 25);
+  }
+    
+   
+    html, body {font-size: 100%;}
 
 
   /* TYPESCALE for MOBILE 
