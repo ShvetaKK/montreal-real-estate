@@ -103,6 +103,13 @@
     --titles-font: "Noto Sans", sans-serif;
     /* --bodytext-font: "helvetica neue", helvetica, arial, sans-serif; */
     --bodytext-font: "Mulish", sans-serif;  
+
+    --footerNav-bg-color: rgb(166, 210, 188);
+    --footerNav-fg-color: rgb(1, 35, 70);
+    --footerNav-link-color-link: rgb(1, 35, 70);
+    --footerNav-link-color-visited: rgb(52, 61, 70);
+    --footerNav-link-color-hover: rgb(41, 1, 70);
+    --footerNav-link-color-active: rgb(70, 1, 25);
   }
 
   h1, h2, h3, h4, h5, h6, legend, label {
@@ -120,18 +127,10 @@
     font-style: normal;
     line-height: 1.5;
   }
-    */
+ 
 
 
-  { 
-    --footerNav-bg-color: rgb(166, 210, 188);
-    --footerNav-fg-color: rgb(1, 35, 70);
-    --footerNav-link-color-link: rgb(1, 35, 70);
-    --footerNav-link-color-visited: rgb(52, 61, 70);
-    --footerNav-link-color-hover: rgb(41, 1, 70);
-    --footerNav-link-color-active: rgb(70, 1, 25);
-  }
-    
+ 
    
     html, body {font-size: 100%;}
 
@@ -232,11 +231,11 @@ header .branding {
  h2 {margin: 2em 0 1em 0;}
  h3 {margin: 0 0 0.5em 0;}
  h4 {margin: 2em 0 1em 0;}
- h5 {}
- h6 {}
+ h5 {margin: 2em 0 1em 0;}
+ h6 {margin: 2em 0 2em 0;}
 
   p{margin: 0 0 1rem 0;}
-  figure {}
+  figure {margin: 2em 0 2em 0;}
   
   figcaption {}
   
