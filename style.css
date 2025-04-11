@@ -228,7 +228,7 @@ header .branding {
  }
 
  h1 {margin: 2em 0 1em 0;}
- h2 {margin: 2em 0 1em 0;}
+ h2 {margin: 1em 0 0.5em 0;}
  h3 {margin: 0 0 0.5em 0;}
  h4 {margin: 2em 0 1em 0;}
  h5 {margin: 2em 0 1em 0;}
@@ -237,35 +237,43 @@ header .branding {
   p{margin: 0 0 1rem 0;}
   figure {margin: 2em 0 2em 0;}
   
-  figcaption {}
+  figcaption {margin: 0 0 0 0.5em;
+  line-height: 1.6;}
   
-  h2+p {}
+  h2+p {margin: 1em 0 1.5em 0;
+    line-height: 1.6;}
   
-  H2+ul, h2+ol {}
+  H2+ul, h2+ol {margin: 1em 0;
+    line-height: 1.6;}
   
-  h2+iframe {}
+  h2+iframe {margin: 1em 0;}
   
-  h2+form {}
+  h2+form { margin: 1.5em 0;}
   
-  h2+blockquote {}
+  h2+blockquote {margin: 1em 0;
+    line-height: 1.6;}
   
-  h2+.gallery {}
+  h2+.gallery { margin: 2em 0;}
   
-  h2+table {}
+  h2+table {margin: 1em 0;}
 
-  h2+h3 {}
+  h2+h3 {margin: 2em 0;}
   
-  table {}
+  table {margin: 1em 0;
+    line-height: 1.4;}
   
-  .gallery {}
+  .gallery {margin: 2em 0;}
   
   blockquote {}
   
-  h3+p {}
+  h3+p {margin: 1.8em 0;
+    line-height: 1.6;}
   
-  section>h2 {}
+  section>h2 {margin: 3em 0 1.5em 0;}
   
-  form label {}
+  form label {display: block;
+    margin-bottom: 0.5em;
+    line-height: 1.4;}
   
   form label:first-child {}
   
