@@ -228,7 +228,8 @@ header .branding {
  }
 
  h1 {margin: 2em 0 1em 0;}
- h2 {margin: 1em 0 0.5em 0;}
+ h2 {margin: 1em 0 0.5em 0;
+line-height: 1.2;}
  h3 {margin: 0 0 0.5em 0;}
  h4 {margin: 2em 0 1em 0;}
  h5 {margin: 2em 0 1em 0;}
@@ -243,7 +244,7 @@ header .branding {
   h2+p {margin: 1em 0 1.5em 0;
     line-height: 1.6;}
   
-  H2+ul, h2+ol {margin: 1em 0;
+  H2+ul, h2+ol {margin: 1em 0 1rem 2rem;
     line-height: 1.6;}
   
   h2+iframe {margin: 1em 0;}
@@ -309,7 +310,18 @@ header .branding {
     margin: 1rem auto;
   }
 
-  
+  ul {
+    margin-left: 2rem;
+    list-style: disc;
+    margin-bottom: 1rem;
+  }
+
+  ol {
+    margin-left: 2rem;
+    list-style: decimal;
+    margin-bottom: 1rem;
+  }
+
 /* required wordpress classes */
 
 .wp-caption {
@@ -404,9 +416,6 @@ ul#menu {
     text-decoration: none;
     padding: 0 0.95rem;
   }
-
-
-
 
 
 
